@@ -1,0 +1,26 @@
+<div class="doc-item-wrapper">
+<a target="_blank" ng-href="{{docItem.url}}">
+
+    <div class="doc-item panel panel-default">
+
+        <div class="panel-heading">
+          <!--
+          <img ng-repeat="icon in docItem.icons" class="doc-item-icon img-responsive pull-left" ng-src="img/icons/{{icon}}.png"/>
+          -->
+        </div>
+
+
+        <div class="panel-body">
+            <h2>{{docItem.title}}</h2>
+
+            <img class="doc-item-thumbnail thumbnail" ng-src="{{docItem.thumbnail_url}}"/>
+
+            <p>
+            {{docItem.description}}
+            </p>
+        </div>
+
+    </div>
+
+</a>
+</div>

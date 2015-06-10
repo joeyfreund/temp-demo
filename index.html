@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="FrontDocs">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Front Docs</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<link href="css/style.css" rel="stylesheet">
+
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-ui-router.min.js"></script>
+    <script src="js/front-Docs.js"></script>
+
+	</head>
+
+
+	<body ng-controller="FrontDocsHomeCtrl">
+
+      <top-bar></top-bar>
+
+      <div class="tags-container">
+        <p ng-repeat="tag in tags">{{tag}}</p>
+      </div>
+
+      <div class="main">
+          <front-docs-item ng-repeat="docItem in docItems"></front-docs-item>
+      </div>
+
+	</body>
+
+</html>
