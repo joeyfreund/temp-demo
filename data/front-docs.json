@@ -56,32 +56,32 @@
 	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining+1",
 	  	 "description": "The first section of a full-day workshop - Introducing graphs, the database ecosystem and the Pacer library."
 	  	},
-	  	{"title": "Training Session 2",  
+	  	{
 	  	 "url": "http://slides.com/joeyfreund/pacer-training-2", 
 	  	 "tags": ["training", "pacer"],
 	  	 "badge_url" : "img/icons/slides-dot-com.png",
-	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining",
+	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining+2",
 	  	 "description": "The second section of a full-day workshop - Basic graph processing and traversal, using Pacer."
 	  	},
-	  	{"title": "Training Session 3",  
+	  	{
 	  	 "url": "http://slides.com/joeyfreund/pacer-training-3", 
 	  	 "tags": ["training", "pacer"],
 	  	 "badge_url" : "img/icons/slides-dot-com.png",
-	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining",
+	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining+3",
 	  	 "description": "The third section of a full-day workshop - Advanced graph processing and traversal, using Pacer."
 	  	},
-	  	{"title": "Training Session 4",  
+	  	{
 	  	 "url": "http://slides.com/joeyfreund/pacer-training-4", 
 	  	 "tags": ["training", "pacer"],
 	  	 "badge_url" : "img/icons/slides-dot-com.png",
-	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining",
+	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining+4",
 	  	 "description": "The fourth section of a full-day workshop - Modeling your data as a graph, and defining the model using Pacer."
 	  	},
-	  	{"title": "Training Session 5",  
+	  	{
 	  	 "url": "http://slides.com/joeyfreund/pacer-training-5", 
 	  	 "tags": ["training", "pacer"],
 	  	 "badge_url" : "img/icons/slides-dot-com.png",
-	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining",
+	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining+5",
 	  	 "description": "The fifth section of a full-day workshop - Advanced techniques and common patterns in graph data modeling."
 	  	}
 
