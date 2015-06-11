@@ -23,6 +23,9 @@
 
 	<body ng-controller="FrontDocsHomeCtrl">
 
+  <div id="content-wrapper">
+
+
       <top-bar></top-bar>
 
       <div class="main">
@@ -39,15 +42,19 @@
 
           </div>
           </div>
-
-
           <front-docs-item ng-repeat="docItem in docItems"></front-docs-item>
+
       </div>
 
-      <div class="footer navbar-fixed-bottom">
+
+  </div>
+
+
+  <div class="footer navbar-fixed-bottom">
       <a href="http://xnlogic.com">xnlogic.com</a>
-      </div>
+  </div>
 
+  
 	</body>
 
 </html>

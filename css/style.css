@@ -1,3 +1,21 @@
+/* Enable sticky footer */
+html, body, #content-wrapper { height: 100%; }
+body > #content-wrapper { height: auto; min-height: 100%; }
+
+.footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  margin-top: -3em;
+}
+
+#content-wrapper { 
+  padding-bottom: 3em;
+}
+
+
+
 body { 
   background-color: #EFF2F3;
   color: #111; 
