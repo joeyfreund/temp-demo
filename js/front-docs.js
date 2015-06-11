@@ -14,6 +14,7 @@ FrontDocs.controller('FrontDocsHomeCtrl', function($scope, $http) {
             
             $scope.pageHeader = data.pageHeader;
             $scope.docItems   = data.frontDocsItems;
+            $scope.logoUrl    = data.logoUrl;
 
 			// Collect tags from all items ...
 			var tags = new Set();

@@ -1,26 +1,40 @@
 body { 
-  padding-top: 50px;
   background-color: #EFF2F3;
   color: #111; 
+
   font-family: 'Helvetica Neue', sans-serif; 
   font-size: 12px; 
   line-height: 24px; 
-  /*margin: 0 0 24px; */
-  text-align: justify; 
-  text-justify: inter-word; 
 }
 
 
+h1 {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 36px; 
+  font-weight: 300; 
+  line-height: 36px; 
+}
 
+.top-bar {
+  background-color: #e8eaeb;
+  color: #111;
+}
 
+.top-bar .content-wrapper{
+  padding: 1em;
+  margin-left: 4%;
+  margin-top: 0;
+}
 
-/*
- * Main content
- */
+.top-bar .logo{
+  max-height: 96px;
+}
+
+*, *:before, *:after {box-sizing:  border-box !important;}
+
 .main {
   padding: 1em;
   
-
   -moz-column-width: 16em;
   -webkit-column-width: 16em;
   -moz-column-gap: 1em;
@@ -30,13 +44,19 @@ body {
   margin: 0 auto 0 auto;
 }
 
-
-
 .main a:hover {
   text-decoration: none;
 }
 
-*, *:before, *:after {box-sizing:  border-box !important;}
+
+.footer {
+  text-align: center;
+  padding-bottom: 6px;
+}
+
+.footer a{
+  color: #111;
+}
 
 .doc-item-wrapper {
    display: inline-block;
@@ -48,13 +68,6 @@ body {
 
 
 
-.doc-item-thumbnail{
-  width: 100%;
-  max-width: 320px;
-
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
-}
 
 
 .doc-item {
@@ -62,6 +75,7 @@ body {
   background-color: #fff;
   margin-bottom: 3px;
   padding: 2px;
+  position:relative;
 }
 
 .doc-item:hover { 
@@ -98,15 +112,33 @@ body {
 
 
 
+.doc-item-thumbnail{
+  width: 100%;
+  max-width: 320px;
+
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+
+.doc-item .badge-img {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+
+  max-width: 36px;
+}
+
 .doc-item h2 { 
   font-family: 'Open Sans', sans-serif; 
   font-size: 18px; 
   font-weight: 300; 
   line-height: 28px; 
-  margin: 6px 18px 6px 18px; 
+  margin: 12px 18px 12px 18px; 
 }
 
 .doc-item p {
+  font-size: 14px;
   margin: 0 18px 0 18px; 
 }
 
@@ -123,8 +155,8 @@ body {
 .doc-item .front-docs-tag{
   font-size: 11px; 
   line-height: 11px; 
-  margin: 1px 6px 1px 0;
-  padding: 2px;
+  margin: 3px 6px 1px 0;
+  padding: 2px 4px;
 }
 
 .tags-container .front-docs-tag{

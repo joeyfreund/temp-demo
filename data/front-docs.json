@@ -1,0 +1,95 @@
+{
+	"frontDocsItems": [
+
+		{"title": "Pacer Docs", 
+		 "url": "http://xnlogic.github.io/pacer", 
+	  	 "tags": ["pacer"],
+	  	 "badge_url" : "img/icons/help.png",
+	  	 "thumbnail_url": "http://placehold.it/200x150/16A8C7/EFF2F3?text=Pacer+Docs",
+	  	 "description": "Official documentation website."
+	  	},
+
+	  	{"title": "XN Wiki", 
+	  	 "url": "https://github.com/xnlogic/xnlogic/wiki", 
+	  	 "tags": ["xn", "docs"],
+	  	 "badge_url" : "img/icons/help.png",
+	  	 "thumbnail_url": "http://placehold.it/200x150/2B4141/EFF2F3?text=XN+Tutorial",
+	  	 "description": "Unofficial documentation of the XN framework. Feel free to add/edit the wiki."
+	 	},
+
+	  	{"title": "Blueprints",  
+	  	 "url": "https://github.com/xnlogic/blueprints", 
+	  	 "tags": ["blueprints"],
+	  	 "thumbnail_url" : "img/thumbnails/blueprints-repo.jpeg",
+	  	 "description": "Blueprints library (forked from Tinkerpop) - A set of unified interfaces for graph operations, implementation of adapters for a few graph DB\"s (e.g. Neo4j) as well as an in-memory graph called TinkerGraph."
+	  	},
+
+	  	{"title": "Pacer",  
+	  	 "url": "https://github.com/xnlogic/pacer", 
+	  	 "tags": ["pacer"],
+	  	 "thumbnail_url" : "img/thumbnails/pacer-repo.png",
+	  	 "description": "Library for efficient traversal and extensible data modeling on Graph database. Open-source, written in JRuby, supports any Blueprints-enabled graph."
+	  	},
+
+	  	{"title": "Intro to XN",  
+	  	 "url": "http://slides.com/xnlogic/xn-intro", 
+	  	 "tags": ["xn", "docs"],
+	  	 "badge_url" : "img/icons/help.png",
+	  	 "thumbnail_url": "http://placehold.it/200x150/2B4141/EFF2F3?text=Intro+to+XN",
+	  	 "description": "Training session slides"
+	  	},
+
+		{"title": "XN - Getting Started Tutorial",  
+		 "url": "http://xnlogic.github.io/getting_started/", 
+	  	 "tags": ["xn", "docs", "tutorial"],
+	  	 "badge_url" : "img/icons/help.png",
+	  	 "thumbnail_url": "http://placehold.it/200x150/2B4141/EFF2F3?text=XN+Tutorial",
+	  	 "description": "Includes code examples and walkthroughs"
+	  	},
+
+
+
+	  	{
+	  	 "url": "http://slides.com/joeyfreund/pacer-training-1", 
+	  	 "tags": ["training", "pacer"],
+	  	 "badge_url" : "img/icons/slides-dot-com.png",
+	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining+1",
+	  	 "description": "The first section of a full-day workshop - Introducing graphs, the database ecosystem and the Pacer library."
+	  	},
+	  	{"title": "Training Session 2",  
+	  	 "url": "http://slides.com/joeyfreund/pacer-training-2", 
+	  	 "tags": ["training", "pacer"],
+	  	 "badge_url" : "img/icons/slides-dot-com.png",
+	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining",
+	  	 "description": "The second section of a full-day workshop - Basic graph processing and traversal, using Pacer."
+	  	},
+	  	{"title": "Training Session 3",  
+	  	 "url": "http://slides.com/joeyfreund/pacer-training-3", 
+	  	 "tags": ["training", "pacer"],
+	  	 "badge_url" : "img/icons/slides-dot-com.png",
+	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining",
+	  	 "description": "The third section of a full-day workshop - Advanced graph processing and traversal, using Pacer."
+	  	},
+	  	{"title": "Training Session 4",  
+	  	 "url": "http://slides.com/joeyfreund/pacer-training-4", 
+	  	 "tags": ["training", "pacer"],
+	  	 "badge_url" : "img/icons/slides-dot-com.png",
+	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining",
+	  	 "description": "The fourth section of a full-day workshop - Modeling your data as a graph, and defining the model using Pacer."
+	  	},
+	  	{"title": "Training Session 5",  
+	  	 "url": "http://slides.com/joeyfreund/pacer-training-5", 
+	  	 "tags": ["training", "pacer"],
+	  	 "badge_url" : "img/icons/slides-dot-com.png",
+	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining",
+	  	 "description": "The fifth section of a full-day workshop - Advanced techniques and common patterns in graph data modeling."
+	  	}
+
+  	],
+
+
+  	"pageHeader" : "XN Logic",
+
+  	"logoUrl" : "http://static1.squarespace.com/static/504f966ee4b07b6784d077fb/t/504fada3e4b09e50a7782c65/1431532670832/?format=400w" 
+
+}
