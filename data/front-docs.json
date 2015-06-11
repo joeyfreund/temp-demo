@@ -19,14 +19,14 @@
 
 	  	{"title": "Blueprints",  
 	  	 "url": "https://github.com/xnlogic/blueprints", 
-	  	 "tags": ["blueprints"],
+	  	 "tags": ["blueprints", "source code"],
 	  	 "thumbnail_url" : "img/thumbnails/blueprints-repo.jpeg",
 	  	 "description": "Blueprints library (forked from Tinkerpop) - A set of unified interfaces for graph operations, implementation of adapters for a few graph DB\"s (e.g. Neo4j) as well as an in-memory graph called TinkerGraph."
 	  	},
 
 	  	{"title": "Pacer",  
 	  	 "url": "https://github.com/xnlogic/pacer", 
-	  	 "tags": ["pacer"],
+	  	 "tags": ["pacer", "source code"],
 	  	 "thumbnail_url" : "img/thumbnails/pacer-repo.png",
 	  	 "description": "Library for efficient traversal and extensible data modeling on Graph database. Open-source, written in JRuby, supports any Blueprints-enabled graph."
 	  	},
@@ -83,6 +83,13 @@
 	  	 "badge_url" : "img/icons/slides-dot-com.png",
 	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining+5",
 	  	 "description": "The fifth section of a full-day workshop - Advanced techniques and common patterns in graph data modeling."
+	  	},
+	  	{
+	  	 "url": "https://github.com/xnlogic/pacer-northwind", 
+	  	 "tags": ["training", "pacer", "source code"],
+	  	 "badge_url" : "img/icons/github.png",
+	  	 "thumbnail_url": "http://placehold.it/200x150/086375/EFF2F3?text=Graph%0ATraining+6",
+	  	 "description": "A demo of a graph-based web application using Sinatra, Pacer and Neo4j."
 	  	}
 
   	],
