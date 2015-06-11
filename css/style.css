@@ -1,25 +1,15 @@
 body { 
   padding-top: 50px;
-  background-color: #f5f5f5;
-  color: #685206; 
+  background-color: #EFF2F3;
+  color: #111; 
   font-family: 'Helvetica Neue', sans-serif; 
-  font-size: 14px; 
+  font-size: 12px; 
   line-height: 24px; 
-  margin: 0 0 24px; 
+  /*margin: 0 0 24px; */
   text-align: justify; 
   text-justify: inter-word; 
 }
 
-
-h2 { 
-  color: #111; 
-  font-family: 'Open Sans', 
-  sans-serif; 
-  font-size: 24px; 
-  font-weight: 300; 
-  line-height: 28px; 
-  margin: 0 0 24px; 
-}
 
 
 
@@ -29,59 +19,123 @@ h2 {
  */
 .main {
   padding: 1em;
-  background-color: #fff;
+  
+
+  -moz-column-width: 16em;
+  -webkit-column-width: 16em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;  
+  
+  width:92%;
+  margin: 0 auto 0 auto;
 }
+
 
 
 .main a:hover {
   text-decoration: none;
 }
 
-
-
 *, *:before, *:after {box-sizing:  border-box !important;}
-
-.main {
- -moz-column-width: 20em;
- -webkit-column-width: 20em;
- -moz-column-gap: 1em;
- -webkit-column-gap: 1em;  
-}
 
 .doc-item-wrapper {
    display: inline-block;
-   margin:  0.5em;
+   margin:  0;
+   margin-bottom: 1em;
    padding:  0;
    width:  100%; 
 }
 
 
-/*
-.doc-item-icon {
-  height: 32px;
-}
-*/
-
-.doc-item>.panel-heading{
-  height: 6px;
-  background-color: #a3b9c9; 
-}
 
 .doc-item-thumbnail{
   width: 100%;
   max-width: 320px;
+
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 
 .doc-item {
-  color: #1f1f1f;
+  color: #3f3f3f;
+  background-color: #fff;
   margin-bottom: 3px;
+  padding: 2px;
 }
 
 .doc-item:hover { 
   background-color: #a3b9c9; 
 }
 
+.tags-container-wrapper{
+  text-align: center;
+}
+
+.tags-container {
+
+  overflow:auto;
+  background-color: #fff;
+  padding: 3em 1em;
+  background-color: #EFF2F3
+}
+
+.tags-container:hover { 
+  background-color: #EFF2F3
+}
+
+.front-docs-tag{
+  float: left;
+  margin: 6px 18px 6px 0;
+  padding: 6px;
+
+  font-family: 'Open Sans', 
+  sans-serif; 
+  font-size: 18px;
+  line-height: 18px; 
+  font-weight: 100;
+}
 
 
+
+.doc-item h2 { 
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 18px; 
+  font-weight: 300; 
+  line-height: 28px; 
+  margin: 6px 18px 6px 18px; 
+}
+
+.doc-item p {
+  margin: 0 18px 0 18px; 
+}
+
+.doc-item hr {
+  margin: 6px 2px 6px 2px; 
+}
+
+.doc-item .front-docs-tags{
+  overflow: auto;
+  margin: 0 18px 6px 18px; 
+}
+
+
+.doc-item .front-docs-tag{
+  font-size: 11px; 
+  line-height: 11px; 
+  margin: 1px 6px 1px 0;
+  padding: 2px;
+}
+
+.tags-container .front-docs-tag{
+  font-size: 18px; 
+  line-height: 18px; 
+  margin: 6px 6px 6px 0;
+  padding: 6px;
+}
+
+/* Prevent "button glow" when pressing/pressed. */
+.btn:focus, .btn:active, .btn:active:focus {
+  outline: none;
+}
 

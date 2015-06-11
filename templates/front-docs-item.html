@@ -1,24 +1,25 @@
-<div class="doc-item-wrapper">
+<div class="doc-item-wrapper" ng-show="shouldDisplayItem(docItem)">
 <a target="_blank" ng-href="{{docItem.url}}">
 
-    <div class="doc-item panel panel-default">
+    <div class="doc-item img-rounded">
 
-        <div class="panel-heading">
-          <!--
-          <img ng-repeat="icon in docItem.icons" class="doc-item-icon img-responsive pull-left" ng-src="img/icons/{{icon}}.png"/>
-          -->
+        <img class="doc-item-thumbnail img-rounded" ng-src="{{docItem.thumbnail_url}}"/>
+
+        <hr />
+
+        <h2>{{docItem.title}}</h2>
+
+        <p>
+        {{docItem.description}}
+        </p>
+
+        <hr />
+
+        <div class="front-docs-tags">
+            <span ng-repeat="tag in docItem.tags" class="front-docs-tag label label-default">{{tag}}</span>
         </div>
 
 
-        <div class="panel-body">
-            <h2>{{docItem.title}}</h2>
-
-            <img class="doc-item-thumbnail thumbnail" ng-src="{{docItem.thumbnail_url}}"/>
-
-            <p>
-            {{docItem.description}}
-            </p>
-        </div>
 
     </div>
 

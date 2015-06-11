@@ -25,11 +25,22 @@
 
       <top-bar></top-bar>
 
-      <div class="tags-container">
-        <p ng-repeat="tag in tags">{{tag}}</p>
-      </div>
-
       <div class="main">
+
+          <div class="doc-item-wrapper">
+          <div class="tags-container img-rounded doc-item">
+
+            <button ng-repeat="tag in tags | orderBy: '+'" 
+              class="front-docs-tag btn {{tagIsOn(tag) ? 'btn-success' : 'btn-default'}}"
+              ng-click="toggleTag(tag)"
+              type="button">
+              {{tag}}
+            </button>
+
+          </div>
+          </div>
+
+
           <front-docs-item ng-repeat="docItem in docItems"></front-docs-item>
       </div>
 
