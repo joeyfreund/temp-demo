@@ -3,7 +3,7 @@
 
 		{"title": "Pacer Docs", 
 		 "url": "http://xnlogic.github.io/pacer", 
-	  	 "tags": ["pacer"],
+	  	 "tags": ["pacer", "docs"],
 	  	 "badge_url" : "img/icons/help.png",
 	  	 "thumbnail_url": "http://placehold.it/200x150/16A8C7/EFF2F3?text=Pacer+Docs",
 	  	 "description": "Official documentation website."
