@@ -3,11 +3,18 @@
 
     <div class="doc-item img-rounded">
 
-        <img class="badge-img" ng-src="{{docItem.badge_url}}">
-        <img class="doc-item-thumbnail img-rounded" ng-src="{{docItem.thumbnail_url}}"/>
+        <img ng-if="docItem.badge_url" class="badge-img" ng-src="{{docItem.badge_url}}">
 
 
-        <h2>{{docItem.title}}</h2>
+        <div ng-if="docItem.thumbnail_url">
+            <img class="doc-item-thumbnail img-rounded" ng-src="{{docItem.thumbnail_url}}"/>
+            <h2>{{docItem.title}}</h2>
+        </div>
+        
+        <div ng-if="! docItem.thumbnail_url" class="doc-item-thumbnail img-rounded" ng-class="docItem.css_class">
+            <p>{{docItem.title}}</p>
+        </div>
+        
 
         <p>
         {{docItem.description}}
